@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24087FA126CD446D003ED26F /* HappyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24087FA026CD446D003ED26F /* HappyData.swift */; };
+		242D8DA926D7957400FF1E0B /* HornyDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D8DA826D7957400FF1E0B /* HornyDefine.swift */; };
+		242D8DAB26D796B500FF1E0B /* FoodDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D8DAA26D796B500FF1E0B /* FoodDefine.swift */; };
+		242D8DAD26D79D5800FF1E0B /* BoredDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D8DAC26D79D5800FF1E0B /* BoredDefine.swift */; };
+		243C0A8726D24B3E003DF572 /* SAADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C0A8626D24B3E003DF572 /* SAADView.swift */; };
+		243C0A8A26D2505F003DF572 /* Sad1Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C0A8926D2505F003DF572 /* Sad1Define.swift */; };
+		243C0A8C26D27245003DF572 /* Sad1FinalFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C0A8B26D27245003DF572 /* Sad1FinalFood.swift */; };
+		243C0A8F26D2732A003DF572 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C0A8E26D2732A003DF572 /* Spring.swift */; };
+		243C0A9126D27333003DF572 /* Summer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C0A9026D27333003DF572 /* Summer.swift */; };
+		243C0A9326D27339003DF572 /* Winter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C0A9226D27339003DF572 /* Winter.swift */; };
+		243C0A9526D27349003DF572 /* Autum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C0A9426D27349003DF572 /* Autum.swift */; };
+		244C205626C1660600CB298F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C205526C1660600CB298F /* AppDelegate.swift */; };
+		244C205826C1660600CB298F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C205726C1660600CB298F /* SceneDelegate.swift */; };
+		244C205A26C1660600CB298F /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C205926C1660600CB298F /* MoodView.swift */; };
+		244C205C26C1660900CB298F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244C205B26C1660900CB298F /* Assets.xcassets */; };
+		244C205F26C1660900CB298F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244C205E26C1660900CB298F /* Preview Assets.xcassets */; };
+		244C206226C1660900CB298F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244C206026C1660900CB298F /* LaunchScreen.storyboard */; };
+		244C206C26C2721500CB298F /* MoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C206B26C2721500CB298F /* MoodData.swift */; };
+		244DF51526CE73C600D1FAEF /* SadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244DF51426CE73C600D1FAEF /* SadData.swift */; };
+		246D93F126CFDB710044862D /* SADDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246D93F026CFDB710044862D /* SADDefine.swift */; };
+		247DF63926C688F200A5D677 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24145EBF26C66D0A0003C811 /* Testing.swift */; };
+		247FCE6626CCF49500D04CD3 /* HangryFinalFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247FCE6526CCF49500D04CD3 /* HangryFinalFood.swift */; };
+		24835E5A26CD7C7F00FC71C9 /* HornyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24835E5926CD7C7F00FC71C9 /* HornyData.swift */; };
+		24835E5E26CD7CD400FC71C9 /* StresssedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24835E5D26CD7CD400FC71C9 /* StresssedData.swift */; };
+		24835E6026CD7CF000FC71C9 /* PeriodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24835E5F26CD7CF000FC71C9 /* PeriodData.swift */; };
+		24883EA826D5321400F38EF5 /* JoyDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24883EA726D5321400F38EF5 /* JoyDefine.swift */; };
+		24883EAA26D5331F00F38EF5 /* ExcitementDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24883EA926D5331F00F38EF5 /* ExcitementDefine.swift */; };
+		24883EAC26D5376400F38EF5 /* PrideDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24883EAB26D5376400F38EF5 /* PrideDefine.swift */; };
+		24883EAE26D5380200F38EF5 /* LoveDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24883EAD26D5380200F38EF5 /* LoveDefine.swift */; };
+		2489D84726D7DBAD0084DE75 /* 3AmDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2489D84626D7DBAD0084DE75 /* 3AmDefine.swift */; };
+		2489D84926D7DF030084DE75 /* HornyFinalFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2489D84826D7DF030084DE75 /* HornyFinalFood.swift */; };
+		2489D84B26D7DF7C0084DE75 /* FoodFinalFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2489D84A26D7DF7C0084DE75 /* FoodFinalFood.swift */; };
+		2497502326C445E600617DFA /* AngryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497502226C445E600617DFA /* AngryView.swift */; };
+		24BFDF6826D6B10700BE1E1D /* JoyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFDF6726D6B10700BE1E1D /* JoyView.swift */; };
+		24BFDF6A26D6B19C00BE1E1D /* ExcitementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFDF6926D6B19C00BE1E1D /* ExcitementView.swift */; };
+		24BFDF6C26D6B21300BE1E1D /* PrideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFDF6B26D6B21300BE1E1D /* PrideView.swift */; };
+		24BFDF6E26D6B25E00BE1E1D /* LoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFDF6D26D6B25E00BE1E1D /* LoveView.swift */; };
+		24DA272826CAB61700D05B22 /* AngryFinalFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA272726CAB61700D05B22 /* AngryFinalFood.swift */; };
+		24E8B82126C6AC33005C0215 /* AngryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8B82026C6AC33005C0215 /* AngryData.swift */; };
+		24FDCB3E26C568D1004E9810 /* SadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FDCB3D26C568D1004E9810 /* SadView.swift */; };
+		24FDCB4026C568EE004E9810 /* HappyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FDCB3F26C568EE004E9810 /* HappyView.swift */; };
+		24FDCB4226C568FD004E9810 /* HornyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FDCB4126C568FD004E9810 /* HornyView.swift */; };
+		24FDCB4426C5690D004E9810 /* StressedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FDCB4326C5690D004E9810 /* StressedView.swift */; };
+		24FDCB4626C56921004E9810 /* PeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FDCB4526C56921004E9810 /* PeriodView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24087FA026CD446D003ED26F /* HappyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyData.swift; sourceTree = "<group>"; };
+		24145EBF26C66D0A0003C811 /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
+		242D8DA826D7957400FF1E0B /* HornyDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornyDefine.swift; sourceTree = "<group>"; };
+		242D8DAA26D796B500FF1E0B /* FoodDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDefine.swift; sourceTree = "<group>"; };
+		242D8DAC26D79D5800FF1E0B /* BoredDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredDefine.swift; sourceTree = "<group>"; };
+		243C0A8626D24B3E003DF572 /* SAADView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAADView.swift; sourceTree = "<group>"; };
+		243C0A8926D2505F003DF572 /* Sad1Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad1Define.swift; sourceTree = "<group>"; };
+		243C0A8B26D27245003DF572 /* Sad1FinalFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad1FinalFood.swift; sourceTree = "<group>"; };
+		243C0A8E26D2732A003DF572 /* Spring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		243C0A9026D27333003DF572 /* Summer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summer.swift; sourceTree = "<group>"; };
+		243C0A9226D27339003DF572 /* Winter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winter.swift; sourceTree = "<group>"; };
+		243C0A9426D27349003DF572 /* Autum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autum.swift; sourceTree = "<group>"; };
+		244C205226C1660600CB298F /* FoodChooserUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodChooserUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244C205526C1660600CB298F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		244C205726C1660600CB298F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		244C205926C1660600CB298F /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		244C205B26C1660900CB298F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244C205E26C1660900CB298F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		244C206126C1660900CB298F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		244C206326C1660900CB298F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244C206B26C2721500CB298F /* MoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodData.swift; sourceTree = "<group>"; };
+		244DF51426CE73C600D1FAEF /* SadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadData.swift; sourceTree = "<group>"; };
+		246D93F026CFDB710044862D /* SADDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SADDefine.swift; sourceTree = "<group>"; };
+		247FCE6526CCF49500D04CD3 /* HangryFinalFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangryFinalFood.swift; sourceTree = "<group>"; };
+		24835E5926CD7C7F00FC71C9 /* HornyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornyData.swift; sourceTree = "<group>"; };
+		24835E5D26CD7CD400FC71C9 /* StresssedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StresssedData.swift; sourceTree = "<group>"; };
+		24835E5F26CD7CF000FC71C9 /* PeriodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodData.swift; sourceTree = "<group>"; };
+		24883EA726D5321400F38EF5 /* JoyDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyDefine.swift; sourceTree = "<group>"; };
+		24883EA926D5331F00F38EF5 /* ExcitementDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcitementDefine.swift; sourceTree = "<group>"; };
+		24883EAB26D5376400F38EF5 /* PrideDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrideDefine.swift; sourceTree = "<group>"; };
+		24883EAD26D5380200F38EF5 /* LoveDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveDefine.swift; sourceTree = "<group>"; };
+		2489D84626D7DBAD0084DE75 /* 3AmDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3AmDefine.swift; sourceTree = "<group>"; };
+		2489D84826D7DF030084DE75 /* HornyFinalFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornyFinalFood.swift; sourceTree = "<group>"; };
+		2489D84A26D7DF7C0084DE75 /* FoodFinalFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFinalFood.swift; sourceTree = "<group>"; };
+		2497502226C445E600617DFA /* AngryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryView.swift; sourceTree = "<group>"; };
+		24BFDF6726D6B10700BE1E1D /* JoyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyView.swift; sourceTree = "<group>"; };
+		24BFDF6926D6B19C00BE1E1D /* ExcitementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcitementView.swift; sourceTree = "<group>"; };
+		24BFDF6B26D6B21300BE1E1D /* PrideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrideView.swift; sourceTree = "<group>"; };
+		24BFDF6D26D6B25E00BE1E1D /* LoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveView.swift; sourceTree = "<group>"; };
+		24DA272726CAB61700D05B22 /* AngryFinalFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryFinalFood.swift; sourceTree = "<group>"; };
+		24E8B82026C6AC33005C0215 /* AngryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryData.swift; sourceTree = "<group>"; };
+		24FDCB3D26C568D1004E9810 /* SadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadView.swift; sourceTree = "<group>"; };
+		24FDCB3F26C568EE004E9810 /* HappyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyView.swift; sourceTree = "<group>"; };
+		24FDCB4126C568FD004E9810 /* HornyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornyView.swift; sourceTree = "<group>"; };
+		24FDCB4326C5690D004E9810 /* StressedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressedView.swift; sourceTree = "<group>"; };
+		24FDCB4526C56921004E9810 /* PeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244C204F26C1660600CB298F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24087F9F26CD4453003ED26F /* Happy */ = {
+			isa = PBXGroup;
+			children = (
+				24883EA626D531F400F38EF5 /* Defintions and Data */,
+				24FDCB3F26C568EE004E9810 /* HappyView.swift */,
+				24BFDF6726D6B10700BE1E1D /* JoyView.swift */,
+				24BFDF6926D6B19C00BE1E1D /* ExcitementView.swift */,
+				24BFDF6B26D6B21300BE1E1D /* PrideView.swift */,
+				24BFDF6D26D6B25E00BE1E1D /* LoveView.swift */,
+			);
+			path = Happy;
+			sourceTree = "<group>";
+		};
+		242D8DA726D7952900FF1E0B /* Deintions and Data */ = {
+			isa = PBXGroup;
+			children = (
+				242D8DA826D7957400FF1E0B /* HornyDefine.swift */,
+				242D8DAA26D796B500FF1E0B /* FoodDefine.swift */,
+				242D8DAC26D79D5800FF1E0B /* BoredDefine.swift */,
+				2489D84626D7DBAD0084DE75 /* 3AmDefine.swift */,
+				24835E5926CD7C7F00FC71C9 /* HornyData.swift */,
+			);
+			path = "Deintions and Data";
+			sourceTree = "<group>";
+		};
+		243C0A8826D25033003DF572 /* Defintion and Data */ = {
+			isa = PBXGroup;
+			children = (
+				244DF51426CE73C600D1FAEF /* SadData.swift */,
+				246D93F026CFDB710044862D /* SADDefine.swift */,
+				243C0A8926D2505F003DF572 /* Sad1Define.swift */,
+				243C0A8B26D27245003DF572 /* Sad1FinalFood.swift */,
+			);
+			path = "Defintion and Data";
+			sourceTree = "<group>";
+		};
+		243C0A8D26D272EE003DF572 /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				243C0A8E26D2732A003DF572 /* Spring.swift */,
+				243C0A9026D27333003DF572 /* Summer.swift */,
+				243C0A9426D27349003DF572 /* Autum.swift */,
+				243C0A9226D27339003DF572 /* Winter.swift */,
+			);
+			path = Seasons;
+			sourceTree = "<group>";
+		};
+		244C204926C1660600CB298F = {
+			isa = PBXGroup;
+			children = (
+				244C205426C1660600CB298F /* FoodChooserUI */,
+				244C205326C1660600CB298F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244C205326C1660600CB298F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244C205226C1660600CB298F /* FoodChooserUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244C205426C1660600CB298F /* FoodChooserUI */ = {
+			isa = PBXGroup;
+			children = (
+				24FDCB4726C5693A004E9810 /* Views */,
+				244C205526C1660600CB298F /* AppDelegate.swift */,
+				244C205726C1660600CB298F /* SceneDelegate.swift */,
+				244C205B26C1660900CB298F /* Assets.xcassets */,
+				244C206026C1660900CB298F /* LaunchScreen.storyboard */,
+				244C206326C1660900CB298F /* Info.plist */,
+				244C205D26C1660900CB298F /* Preview Content */,
+			);
+			path = FoodChooserUI;
+			sourceTree = "<group>";
+		};
+		244C205D26C1660900CB298F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				244C205E26C1660900CB298F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		244DF51326CE73A900D1FAEF /* Sad */ = {
+			isa = PBXGroup;
+			children = (
+				243C0A8826D25033003DF572 /* Defintion and Data */,
+				24FDCB3D26C568D1004E9810 /* SadView.swift */,
+				243C0A8626D24B3E003DF572 /* SAADView.swift */,
+				243C0A8D26D272EE003DF572 /* Seasons */,
+			);
+			path = Sad;
+			sourceTree = "<group>";
+		};
+		24835E5826CD7C5C00FC71C9 /* Horny */ = {
+			isa = PBXGroup;
+			children = (
+				242D8DA726D7952900FF1E0B /* Deintions and Data */,
+				24FDCB4126C568FD004E9810 /* HornyView.swift */,
+				2489D84826D7DF030084DE75 /* HornyFinalFood.swift */,
+				2489D84A26D7DF7C0084DE75 /* FoodFinalFood.swift */,
+			);
+			path = Horny;
+			sourceTree = "<group>";
+		};
+		24835E5B26CD7CAA00FC71C9 /* Stressed */ = {
+			isa = PBXGroup;
+			children = (
+				24FDCB4326C5690D004E9810 /* StressedView.swift */,
+				24835E5D26CD7CD400FC71C9 /* StresssedData.swift */,
+			);
+			path = Stressed;
+			sourceTree = "<group>";
+		};
+		24835E5C26CD7CB800FC71C9 /* Period */ = {
+			isa = PBXGroup;
+			children = (
+				24FDCB4526C56921004E9810 /* PeriodView.swift */,
+				24835E5F26CD7CF000FC71C9 /* PeriodData.swift */,
+			);
+			path = Period;
+			sourceTree = "<group>";
+		};
+		24883EA626D531F400F38EF5 /* Defintions and Data */ = {
+			isa = PBXGroup;
+			children = (
+				24883EA726D5321400F38EF5 /* JoyDefine.swift */,
+				24883EA926D5331F00F38EF5 /* ExcitementDefine.swift */,
+				24883EAB26D5376400F38EF5 /* PrideDefine.swift */,
+				24883EAD26D5380200F38EF5 /* LoveDefine.swift */,
+				24087FA026CD446D003ED26F /* HappyData.swift */,
+			);
+			path = "Defintions and Data";
+			sourceTree = "<group>";
+		};
+		24E8B81E26C6A761005C0215 /* Mood */ = {
+			isa = PBXGroup;
+			children = (
+				244C205926C1660600CB298F /* MoodView.swift */,
+				244C206B26C2721500CB298F /* MoodData.swift */,
+			);
+			path = Mood;
+			sourceTree = "<group>";
+		};
+		24E8B81F26C6A800005C0215 /* Angry */ = {
+			isa = PBXGroup;
+			children = (
+				2497502226C445E600617DFA /* AngryView.swift */,
+				24E8B82026C6AC33005C0215 /* AngryData.swift */,
+				24DA272726CAB61700D05B22 /* AngryFinalFood.swift */,
+				247FCE6526CCF49500D04CD3 /* HangryFinalFood.swift */,
+			);
+			path = Angry;
+			sourceTree = "<group>";
+		};
+		24FDCB4726C5693A004E9810 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24E8B81E26C6A761005C0215 /* Mood */,
+				24E8B81F26C6A800005C0215 /* Angry */,
+				244DF51326CE73A900D1FAEF /* Sad */,
+				24087F9F26CD4453003ED26F /* Happy */,
+				24835E5826CD7C5C00FC71C9 /* Horny */,
+				24835E5B26CD7CAA00FC71C9 /* Stressed */,
+				24835E5C26CD7CB800FC71C9 /* Period */,
+				24145EBF26C66D0A0003C811 /* Testing.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244C205126C1660600CB298F /* FoodChooserUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244C206626C1660900CB298F /* Build configuration list for PBXNativeTarget "FoodChooserUI" */;
+			buildPhases = (
+				244C204E26C1660600CB298F /* Sources */,
+				244C204F26C1660600CB298F /* Frameworks */,
+				244C205026C1660600CB298F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodChooserUI;
+			productName = FoodChooserUI;
+			productReference = 244C205226C1660600CB298F /* FoodChooserUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244C204A26C1660600CB298F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					244C205126C1660600CB298F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 244C204D26C1660600CB298F /* Build configuration list for PBXProject "FoodChooserUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244C204926C1660600CB298F;
+			productRefGroup = 244C205326C1660600CB298F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244C205126C1660600CB298F /* FoodChooserUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244C205026C1660600CB298F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244C206226C1660900CB298F /* LaunchScreen.storyboard in Resources */,
+				244C205F26C1660900CB298F /* Preview Assets.xcassets in Resources */,
+				244C205C26C1660900CB298F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244C204E26C1660600CB298F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243C0A9326D27339003DF572 /* Winter.swift in Sources */,
+				24BFDF6C26D6B21300BE1E1D /* PrideView.swift in Sources */,
+				244C205626C1660600CB298F /* AppDelegate.swift in Sources */,
+				244DF51526CE73C600D1FAEF /* SadData.swift in Sources */,
+				243C0A8F26D2732A003DF572 /* Spring.swift in Sources */,
+				24883EAA26D5331F00F38EF5 /* ExcitementDefine.swift in Sources */,
+				24E8B82126C6AC33005C0215 /* AngryData.swift in Sources */,
+				2489D84726D7DBAD0084DE75 /* 3AmDefine.swift in Sources */,
+				2497502326C445E600617DFA /* AngryView.swift in Sources */,
+				247FCE6626CCF49500D04CD3 /* HangryFinalFood.swift in Sources */,
+				24883EA826D5321400F38EF5 /* JoyDefine.swift in Sources */,
+				2489D84B26D7DF7C0084DE75 /* FoodFinalFood.swift in Sources */,
+				24835E5A26CD7C7F00FC71C9 /* HornyData.swift in Sources */,
+				242D8DAB26D796B500FF1E0B /* FoodDefine.swift in Sources */,
+				24835E5E26CD7CD400FC71C9 /* StresssedData.swift in Sources */,
+				243C0A8C26D27245003DF572 /* Sad1FinalFood.swift in Sources */,
+				24883EAE26D5380200F38EF5 /* LoveDefine.swift in Sources */,
+				242D8DAD26D79D5800FF1E0B /* BoredDefine.swift in Sources */,
+				244C205826C1660600CB298F /* SceneDelegate.swift in Sources */,
+				24FDCB4026C568EE004E9810 /* HappyView.swift in Sources */,
+				246D93F126CFDB710044862D /* SADDefine.swift in Sources */,
+				243C0A8726D24B3E003DF572 /* SAADView.swift in Sources */,
+				24FDCB3E26C568D1004E9810 /* SadView.swift in Sources */,
+				24BFDF6E26D6B25E00BE1E1D /* LoveView.swift in Sources */,
+				24FDCB4226C568FD004E9810 /* HornyView.swift in Sources */,
+				244C205A26C1660600CB298F /* MoodView.swift in Sources */,
+				2489D84926D7DF030084DE75 /* HornyFinalFood.swift in Sources */,
+				24883EAC26D5376400F38EF5 /* PrideDefine.swift in Sources */,
+				24BFDF6826D6B10700BE1E1D /* JoyView.swift in Sources */,
+				247DF63926C688F200A5D677 /* Testing.swift in Sources */,
+				243C0A9126D27333003DF572 /* Summer.swift in Sources */,
+				243C0A9526D27349003DF572 /* Autum.swift in Sources */,
+				242D8DA926D7957400FF1E0B /* HornyDefine.swift in Sources */,
+				24FDCB4626C56921004E9810 /* PeriodView.swift in Sources */,
+				244C206C26C2721500CB298F /* MoodData.swift in Sources */,
+				24087FA126CD446D003ED26F /* HappyData.swift in Sources */,
+				24DA272826CAB61700D05B22 /* AngryFinalFood.swift in Sources */,
+				24835E6026CD7CF000FC71C9 /* PeriodData.swift in Sources */,
+				24FDCB4426C5690D004E9810 /* StressedView.swift in Sources */,
+				24BFDF6A26D6B19C00BE1E1D /* ExcitementView.swift in Sources */,
+				243C0A8A26D2505F003DF572 /* Sad1Define.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		244C206026C1660900CB298F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244C206126C1660900CB298F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		244C206426C1660900CB298F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		244C206526C1660900CB298F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244C206726C1660900CB298F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodChooserUI/Preview Content\"";
+				DEVELOPMENT_TEAM = T7V22YMD53;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FoodChooserUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = StoryBoard.FoodChooserUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		244C206826C1660900CB298F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodChooserUI/Preview Content\"";
+				DEVELOPMENT_TEAM = T7V22YMD53;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FoodChooserUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = StoryBoard.FoodChooserUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244C204D26C1660600CB298F /* Build configuration list for PBXProject "FoodChooserUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244C206426C1660900CB298F /* Debug */,
+				244C206526C1660900CB298F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244C206626C1660900CB298F /* Build configuration list for PBXNativeTarget "FoodChooserUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244C206726C1660900CB298F /* Debug */,
+				244C206826C1660900CB298F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244C204A26C1660600CB298F /* Project object */;
+}
