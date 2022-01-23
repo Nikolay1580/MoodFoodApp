@@ -12,6 +12,8 @@ struct Summer: View {
     @State var SummerRandom = Int.random(in: 0..<SummerFood.count)
     @State var SummerFood2 = SummerFood
     
+    // I love potatoes
+    
     var body: some View {
         
         VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 50, content: {
